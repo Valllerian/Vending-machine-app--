@@ -5,16 +5,16 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <NavLink exact activeClassName="Navbar-active" to="/">
+      <NavLink exact activeClassName="Active" to="/">
         Home
       </NavLink>
-      <NavLink exact activeClassName="Navbar-active" to="/chips">
+      <NavLink exact activeClassName="Active" to="/chips">
         Chips
       </NavLink>
-      <NavLink exact activeClassName="Navbar-active" to="/soda">
+      <NavLink exact activeClassName="Active" to="/soda">
         Soda
       </NavLink>
-      <NavLink exact activeClassName="Navbar-active" to="/sardines">
+      <NavLink exact activeClassName="Active" to="/sardines">
         Sardines
       </NavLink>
     </div>
